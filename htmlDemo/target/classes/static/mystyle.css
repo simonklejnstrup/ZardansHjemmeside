@@ -1,0 +1,116 @@
+.bg-img {
+
+    /* Needed to position the navbar */
+    position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+}
+
+/* The navbar */
+.topnav {
+    overflow: hidden;
+    background-color: transparent;
+}
+
+/* Navbar links */
+.topnav a {
+    float: left;
+    color:darksalmon;
+    text-align: center;
+    font-family: "garamond";
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 27px;
+}
+
+.topnav a:hover {
+    color: darkorange;
+}
+
+.topnav a:active {
+    text-decoration: underline;
+}
+
+/* Style for h1 */
+.right {
+    position: absolute;
+    right: 40px;
+    width: 300px;
+}
+
+h1 {
+    color: cornsilk;
+    font-family: garamond;
+    font-size: 90px;
+}
+
+h6 {
+    color: cornsilk;
+    font-family: garamond;
+    font-size: 22px;
+}
+
+p {
+    color: cornsilk;
+    font-family: garamond;
+    font-size: 18px;
+
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    opacity: 0.7;
+
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 1;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: lightgrey;
+    color: white;
+}
+
+.fa-instagram {
+    background: lightgrey;
+    color: white;
+}
+
+.fa-soundcloud {
+    background: lightgrey;
+    color: white;
+}
+
+.fa-youtube {
+    background: lightgrey;
+    color: white;
+}
+
+.socialicon {
+
+    width: 100%;
+    text-align: right;
+    bottom: 40px;
+    right: 40px;
+    position: absolute;
+
+
+}
+
